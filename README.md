@@ -16,8 +16,8 @@ adds file to staging from working dir
 #### `git commit -m "commit message"`
 commits changes in staging to git history
 
-#### `git reset [<path to filename>]`
-removes changes from staging
+#### `git reset [<path to filename>] [--hard]`
+removes changes from staging; [only one change]; [resets back to last commit]
 
 #### `git diff [--staged] [<path to filename>]`
 compares working dir to history (staging if flagged)
@@ -36,6 +36,9 @@ pushes commits to heaven
 
 #### `git clone <git repo address>`
 clones remote repo
+
+#### `git pull <remote name> <branch>`
+pull changes from a remote
 
 ## OTHER USEFUL SHIT
 
