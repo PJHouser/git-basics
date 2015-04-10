@@ -34,6 +34,9 @@ shows remote (remote touchable copies of repo)
 #### `git push <remote name> <branch>`
 pushes commits to heaven
 
+#### `git clone <git repo address>`
+clones remote repo
+
 ## OTHER USEFUL SHIT
 
 #### `subl <path to filename>`
