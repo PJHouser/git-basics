@@ -20,3 +20,9 @@ removes changes from staging
 ##`git diff [--staged] [<path to filename>]`
 compares working dir to history (staging if flagged)
 
+##`git log`
+show log
+
+##`git config --global [thing.thing] ["stuff"]`
+shows what's in .gitconfig; if " ", then changes it
+
